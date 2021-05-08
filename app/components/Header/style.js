@@ -15,8 +15,8 @@ const HeaderSection = styled.header`
       align-items: center;
 
       img {
-         width: 50px;
-         height: 50px;
+         width: 42px;
+         height: 42px;
          object-fit: cover;
 
          margin-right: 7px;
