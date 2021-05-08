@@ -51,9 +51,26 @@ const HeaderSection = styled.header`
             color: #000;
          }
 
+         &:hover::after {
+            width: 100%;
+         }
+
+         &::after {
+            content: '';
+            display: block;
+            width: 0%;
+            transition: width 0.3s ease-out;
+            height: 2px;
+            background-color: #54ca95;
+         }
+
          &.active {
             color: #000;
             font-weight: 500;
+
+            &::after {
+               width: 100%;
+            }
          }
       }
    }
