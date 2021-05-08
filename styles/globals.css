@@ -7,3 +7,16 @@
 body {
    font-family: 'Poppins', sans-serif;
 }
+
+*::selection {
+   background-color: #54ca95;
+   color: #fff;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+}
