@@ -2,7 +2,7 @@ export const services = [
    {
       id: 1,
       iconPath: '/icons/web.svg',
-      title: 'Web development',
+      title: 'Web Development',
       descr:
          'Nowadays, every website has two main goals: First, it needs to be responsive and work across all devices. Secondly, the site must be fast and user-friendly. For me, its important to develop scalable, high-quality website.',
    },
@@ -16,7 +16,7 @@ export const services = [
    {
       id: 3,
       iconPath: '/icons/mobile.svg',
-      title: 'Mobile development',
+      title: 'Mobile Development',
       descr:
          'Mobile applications getting popular and necessary in 2021. Any web application nowadays also needs a mobile application. I will develop a mobile application for both Android and iOS using React Native.',
    },
