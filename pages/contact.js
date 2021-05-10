@@ -1,11 +1,16 @@
 import React from 'react';
 
-import { Layout } from '../app/components';
+import { Layout, PageTitle } from 'app/components';
+import { ContactPageComponent } from 'app/pages';
 
 const ContactPage = () => {
    return (
       <Layout>
-         <p>Contact page</p>
+         <PageTitle>
+            <h2>Contact</h2>
+            <span>Get in Touch</span>
+         </PageTitle>
+         <ContactPageComponent />
       </Layout>
    );
 };

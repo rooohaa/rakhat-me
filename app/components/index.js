@@ -3,3 +3,5 @@
 export { Header } from './Header';
 export { Footer } from './Footer';
 export { Layout } from './Layout';
+export { PageTitle } from './PageTitle';
+export { ContactForm } from './ContactForm';
