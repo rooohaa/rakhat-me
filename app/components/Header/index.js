@@ -2,7 +2,7 @@ import React from 'react';
 
 import { links } from './mock';
 import { HeaderSection } from './style';
-import { Container } from '../../sc/Container';
+import { Container } from 'app/sc/Container';
 
 import Link from 'next/link';
 import { useRouter } from 'next/router';

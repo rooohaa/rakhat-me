@@ -2,7 +2,7 @@ import React from 'react';
 
 import { socialLinks } from './mock';
 import { FooterSection } from './style';
-import { Container } from '../../sc/Container';
+import { Container } from 'app/sc/Container';
 
 const Footer = () => {
    return (
