@@ -1,6 +1,5 @@
 import React from 'react';
-
-import { Layout } from '../app/components';
+import { Layout } from 'app/components';
 
 const ProjectsPage = () => {
    return (
