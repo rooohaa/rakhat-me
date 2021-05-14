@@ -10,6 +10,13 @@ const ContactSection = styled.section`
       column-gap: 30px;
    }
 
+   div.map {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 12px;
+      margin-bottom: 50px;
+   }
+
    div.contact-info {
       display: flex;
       flex-direction: column;
