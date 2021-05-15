@@ -33,7 +33,7 @@ export const exp = [
    {
       id: 3,
       year: '2019-2021',
-      place: 'Hackathon',
+      place: 'Hackathons',
       position: 'Team member & Developer',
       descr: 'I participated in some hackathons organized by the universities. We completed assignments from IT companies and gained experience in teamwork.',
    },
