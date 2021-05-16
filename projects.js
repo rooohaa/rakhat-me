@@ -27,4 +27,13 @@ export const projects = [
       imgPath: '/images/netflix.jpeg',
       filterKeys: 'frontend,all',
    },
+   {
+      id: 4,
+      title: 'Sneaker Store Layout',
+      tags: 'frontend, layout, design',
+      description:
+         'Responsive, well designed layout for Sneaker Store website. It has 5 pages and interactive elements like slider, popup, etc.',
+      imgPath: '/images/sneaker.webp',
+      filterKeys: 'layout,all,frontend',
+   },
 ];

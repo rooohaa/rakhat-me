@@ -16,6 +16,8 @@ const ProjectCardWrap = styled.div`
       border-radius: 10px;
 
       img {
+         user-select: none;
+         pointer-events: none;
          border-radius: 10px;
          width: 100%;
          height: 100%;

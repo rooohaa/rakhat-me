@@ -14,4 +14,9 @@ export const filters = [
       title: 'Fullstack',
       filter: 'fullstack',
    },
+   {
+      id: 4,
+      title: 'Layout',
+      filter: 'layout',
+   },
 ];
