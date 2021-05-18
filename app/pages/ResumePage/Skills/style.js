@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const SkillsWrapper = styled.section`
    padding-bottom: 65px;
@@ -9,6 +9,6 @@ const SkillsWrapper = styled.section`
       column-gap: 50px;
       row-gap: 14px;
    }
-`
+`;
 
-export { SkillsWrapper }
+export { SkillsWrapper };

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const CardWrapper = styled.div`
    padding: 49px 0 17px 21px;
@@ -46,6 +46,6 @@ const CardWrapper = styled.div`
       line-height: 19px;
       color: #666;
    }
-`
+`;
 
-export { CardWrapper }
+export { CardWrapper };

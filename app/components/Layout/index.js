@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 
-import { Header, Footer } from 'app/components'
-import Head from 'next/head'
+import { Header, Footer } from 'app/components';
+import Head from 'next/head';
 
 const Layout = ({ children, title }) => {
    return (
@@ -15,7 +15,7 @@ const Layout = ({ children, title }) => {
          {children}
          <Footer />
       </Fragment>
-   )
-}
+   );
+};
 
-export { Layout }
+export { Layout };

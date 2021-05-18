@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const ServicesSection = styled.section`
    padding: 50px 0;
@@ -43,6 +43,6 @@ const ServicesSection = styled.section`
          }
       }
    }
-`
+`;
 
-export { ServicesSection }
+export { ServicesSection };

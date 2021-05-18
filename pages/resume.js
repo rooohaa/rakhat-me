@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import { Layout, PageTitle } from 'app/components'
-import { ResumePageComponent } from 'app/pages'
+import { Layout, PageTitle } from 'app/components';
+import { ResumePageComponent } from 'app/pages';
 
 const ResumePage = () => {
    return (
@@ -12,7 +12,7 @@ const ResumePage = () => {
          </PageTitle>
          <ResumePageComponent />
       </Layout>
-   )
-}
+   );
+};
 
-export default ResumePage
+export default ResumePage;

@@ -45,4 +45,4 @@ export const projects = [
       imgPath: '/images/human-rights.webp',
       filterKeys: 'all,frontend,commercial',
    },
-]
+];

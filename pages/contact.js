@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import { Layout, PageTitle } from 'app/components'
-import { ContactPageComponent } from 'app/pages'
+import { Layout, PageTitle } from 'app/components';
+import { ContactPageComponent } from 'app/pages';
 
 const ContactPage = () => {
    return (
@@ -12,7 +12,7 @@ const ContactPage = () => {
          </PageTitle>
          <ContactPageComponent />
       </Layout>
-   )
-}
+   );
+};
 
-export default ContactPage
+export default ContactPage;

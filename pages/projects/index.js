@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import { ProjectsPageComponent } from 'app/pages'
-import { Layout, PageTitle } from 'app/components'
+import { ProjectsPageComponent } from 'app/pages';
+import { Layout, PageTitle } from 'app/components';
 
 const ProjectsPage = () => {
    return (
@@ -11,7 +11,7 @@ const ProjectsPage = () => {
          </PageTitle>
          <ProjectsPageComponent />
       </Layout>
-   )
-}
+   );
+};
 
-export default ProjectsPage
+export default ProjectsPage;

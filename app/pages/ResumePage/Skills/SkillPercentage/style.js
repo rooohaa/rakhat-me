@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const SkillWrap = styled.div`
    div.head {
@@ -33,6 +33,6 @@ const SkillWrap = styled.div`
          border-radius: 8px;
       }
    }
-`
+`;
 
-export { SkillWrap }
+export { SkillWrap };
