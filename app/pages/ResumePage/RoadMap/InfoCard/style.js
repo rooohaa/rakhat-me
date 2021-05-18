@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const CardWrapper = styled.div`
-   padding: 50px 0 17px 21px;
+   padding: 49px 0 17px 21px;
    border-left: 1px solid #f5f6f9;
    border-bottom: 1px solid #f5f6f9;
 
@@ -43,9 +43,9 @@ const CardWrapper = styled.div`
 
    p {
       font-size: 13px;
-      line-height: 18px;
+      line-height: 19px;
       color: #666;
    }
-`;
+`
 
-export { CardWrapper };
+export { CardWrapper }

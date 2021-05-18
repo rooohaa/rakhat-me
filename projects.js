@@ -16,7 +16,7 @@ export const projects = [
       description:
          'Task manager with JSON server that helps user to manage his tasks. This is web-application with CRUD operations and Data visualization.',
       imgPath: '/images/todo-app.webp',
-      filterKeys: 'fullstack,all',
+      filterKeys: 'fullstack,all,frontend',
    },
    {
       id: 3,
@@ -36,4 +36,13 @@ export const projects = [
       imgPath: '/images/sneaker.webp',
       filterKeys: 'layout,all,frontend',
    },
-];
+   {
+      id: 5,
+      title: 'Corporate website for a human rights organization',
+      tags: 'frontend, design',
+      description:
+         'This is my first team development. I have been working on the client side of a website. Acquainted with the framework Next.js.',
+      imgPath: '/images/human-rights.webp',
+      filterKeys: 'all,frontend,commercial',
+   },
+]

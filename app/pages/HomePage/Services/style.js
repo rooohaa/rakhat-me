@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const ServicesSection = styled.section`
    padding: 50px 0;
@@ -29,7 +29,7 @@ const ServicesSection = styled.section`
 
             h4 {
                color: #333;
-               font-size: 16px;
+               font-size: 17px;
                line-height: 24px;
             }
 
@@ -43,6 +43,6 @@ const ServicesSection = styled.section`
          }
       }
    }
-`;
+`
 
-export { ServicesSection };
+export { ServicesSection }

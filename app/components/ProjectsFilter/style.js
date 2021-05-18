@@ -14,7 +14,7 @@ const FilterNav = styled.div`
    }
 
    nav {
-      width: 30%;
+      width: 37%;
    }
 
    ul {

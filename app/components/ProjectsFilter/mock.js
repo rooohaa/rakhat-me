@@ -19,4 +19,9 @@ export const filters = [
       title: 'Layout',
       filter: 'layout',
    },
+   {
+      id: 5,
+      title: 'Commercial',
+      filter: 'commercial',
+   },
 ];

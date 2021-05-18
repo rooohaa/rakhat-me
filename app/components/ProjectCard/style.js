@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const ProjectCardWrap = styled.div`
    padding: 35px 0;
@@ -32,8 +32,8 @@ const ProjectCardWrap = styled.div`
       align-items: flex-start;
 
       h4 {
-         font-size: 26px;
-         line-height: 32px;
+         font-size: 24px;
+         line-height: 28px;
          color: #333;
          margin-bottom: 9px;
       }
@@ -61,13 +61,14 @@ const ProjectCardWrap = styled.div`
          display: flex;
          align-items: center;
          justify-content: center;
-         width: 200px;
+         width: 180px;
          height: 40px;
          border-radius: 5px;
          border: 1px solid #54ca95;
 
          color: #54ca95;
          font-weight: 700;
+         font-size: 15px;
          transition: all 0.3s ease-out;
 
          &:hover {
@@ -76,6 +77,6 @@ const ProjectCardWrap = styled.div`
          }
       }
    }
-`;
+`
 
-export { ProjectCardWrap };
+export { ProjectCardWrap }

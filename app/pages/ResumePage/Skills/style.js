@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const SkillsWrapper = styled.section`
    padding-bottom: 65px;
@@ -7,8 +7,8 @@ const SkillsWrapper = styled.section`
       display: grid;
       grid-template-columns: 1fr 1fr;
       column-gap: 50px;
-      row-gap: 10px;
+      row-gap: 14px;
    }
-`;
+`
 
-export { SkillsWrapper };
+export { SkillsWrapper }

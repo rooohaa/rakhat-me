@@ -1,18 +1,18 @@
-import React from 'react';
+import React from 'react'
 
-import { Layout, PageTitle } from 'app/components';
-import { ContactPageComponent } from 'app/pages';
+import { Layout, PageTitle } from 'app/components'
+import { ContactPageComponent } from 'app/pages'
 
 const ContactPage = () => {
    return (
-      <Layout>
+      <Layout title="Contact">
          <PageTitle>
             <h2>Contact</h2>
             <span>Get in Touch</span>
          </PageTitle>
          <ContactPageComponent />
       </Layout>
-   );
-};
+   )
+}
 
-export default ContactPage;
+export default ContactPage

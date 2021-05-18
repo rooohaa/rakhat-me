@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const SkillWrap = styled.div`
    div.head {
@@ -9,14 +9,14 @@ const SkillWrap = styled.div`
       margin-bottom: 3px;
 
       h6 {
-         font-size: 13px;
+         font-size: 14px;
          line-height: 19px;
          color: #333;
       }
 
       span {
          color: #888;
-         font-size: 11px;
+         font-size: 12px;
          line-height: 17px;
       }
    }
@@ -33,6 +33,6 @@ const SkillWrap = styled.div`
          border-radius: 8px;
       }
    }
-`;
+`
 
-export { SkillWrap };
+export { SkillWrap }
