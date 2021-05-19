@@ -7,11 +7,11 @@ const PageTitleBlock = styled.div`
 
    position: relative;
 
-   padding: 65px 0;
+   padding: 60px 0;
 
    h2 {
-      font-size: 44px;
-      line-height: 52px;
+      font-size: 40px;
+      line-height: 48px;
       color: #333;
    }
 
