@@ -64,4 +64,23 @@ export const projects = [
       date: 'May 2021',
       demoLink: 'https://nghrdc.kz/',
    },
+   {
+      id: '6',
+      title: 'Football players review',
+      tags: 'fullstack, data visualization',
+      description:
+         'Fullstack project for my DBMS course. It uses large dataset which contains a lot of information about football players. Also have CRUD operations and Data visualization.',
+      imgPath: '/images/football.jpeg',
+      filterKeys: 'all,frontend,fullstack',
+      tech: [
+         'React',
+         'TypeScript',
+         'Node.js',
+         'Express.js',
+         'Oracle',
+         'Chart.js',
+      ],
+      githubLink: 'https://github.com/rooohaa/dbms-project',
+      date: 'April 2021',
+   },
 ];

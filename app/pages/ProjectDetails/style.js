@@ -106,6 +106,7 @@ const DetailsWrapper = styled.section`
                display: flex;
                align-items: center;
                flex-wrap: wrap;
+               row-gap: 7px;
             }
          }
       }
