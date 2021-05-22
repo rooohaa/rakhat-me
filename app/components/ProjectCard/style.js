@@ -1,19 +1,14 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const ProjectCardWrap = styled.div`
-   padding: 35px 0;
-   width: 100%;
-   border-bottom: 1px solid #ccc;
-
-   display: flex;
-   align-items: flex-start;
+   width: 373px;
+   border-radius: 15px;
+   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
    div.project-img {
-      width: 70%;
-      height: 350px;
-
-      margin-right: 35px;
-      border-radius: 10px;
+      width: 100%;
+      height: 170px;
 
       img {
          user-select: none;
@@ -26,27 +21,27 @@ const ProjectCardWrap = styled.div`
    }
 
    div.project-info {
-      width: 30%;
+      padding: 17px 15px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
 
       h4 {
-         font-size: 24px;
-         line-height: 28px;
+         font-size: 22px;
+         line-height: 26px;
          color: #333;
          margin-bottom: 9px;
       }
 
       p,
       span {
-         font-size: 14px;
-         line-height: 18px;
+         font-size: 13px;
+         line-height: 17px;
       }
 
       p {
          margin-bottom: 10px;
-         line-height: 21px;
+         line-height: 20px;
          color: #222;
       }
 
@@ -54,21 +49,21 @@ const ProjectCardWrap = styled.div`
          font-weight: 500;
          display: block;
          color: #aaa;
-         margin-bottom: 30px;
+         margin-bottom: 20px;
       }
 
       a.more-link {
          display: flex;
          align-items: center;
          justify-content: center;
-         width: 180px;
-         height: 40px;
+         width: 160px;
+         height: 38px;
          border-radius: 5px;
          border: 1px solid #54ca95;
 
          color: #54ca95;
          font-weight: 700;
-         font-size: 15px;
+         font-size: 14px;
          transition: all 0.3s ease-out;
 
          &:hover {
@@ -77,6 +72,6 @@ const ProjectCardWrap = styled.div`
          }
       }
    }
-`
+`;
 
-export { ProjectCardWrap }
+export { ProjectCardWrap };
