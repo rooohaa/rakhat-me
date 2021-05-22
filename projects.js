@@ -32,7 +32,7 @@ export const projects = [
       description:
          'Netflix clone written with Vue.js + Firebase. It uses TMDB API for fetching movies. You can register, view new movies and add them to your list.',
       imgPath: '/images/netflix.jpeg',
-      filterKeys: 'frontend,all',
+      filterKeys: 'frontend,all,fullstack',
       tech: ['Vue', 'Firebase', 'Tmdb API'],
       githubLink: 'https://github.com/rooohaa/netflix-clone',
       date: 'January 2021',

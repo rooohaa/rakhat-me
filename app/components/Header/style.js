@@ -41,7 +41,7 @@ const HeaderSection = styled.header`
 
       a {
          color: #8f8f8f;
-         font-size: 15px;
+         font-size: 14px;
          line-height: 17px;
          font-weight: 300;
 
