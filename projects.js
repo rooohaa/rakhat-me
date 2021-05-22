@@ -53,7 +53,7 @@ export const projects = [
    },
    {
       id: '5',
-      title: 'Corporate website for organization',
+      title: 'Corporate website',
       tags: 'frontend, design',
       description:
          'This is my first team development. I have been working on the client side of a website. Acquainted with the framework Next.js.',
@@ -69,7 +69,7 @@ export const projects = [
       title: 'Football players review',
       tags: 'fullstack, data visualization',
       description:
-         'Fullstack project for my DBMS course. It uses large dataset which contains a lot of information about football players. Also have CRUD operations and Data visualization.',
+         'Fullstack project for my DBMS course. It uses large dataset which is being manipulated on frontend with CRUD and Data visualization.',
       imgPath: '/images/football.jpeg',
       filterKeys: 'all,frontend,fullstack',
       tech: [
