@@ -5,7 +5,7 @@ import { ProjectCardWrap } from './style';
 import Link from 'next/link';
 
 const ProjectCard = (props) => {
-   const { id, imgPath, title, descr, tags } = props;
+   const { id, imgPath, title, tags } = props;
 
    return (
       <ProjectCardWrap>
@@ -15,10 +15,10 @@ const ProjectCard = (props) => {
 
          <div className="project-info">
             <h4>{title}</h4>
-            <p>{descr}</p>
             <span>{tags}</span>
-            <Link href={'/projects/' + id}>
-               <a className="more-link">More Details</a>
+
+            <Link href={`/projects/${id}`}>
+               <a className="more-link">More</a>
             </Link>
          </div>
       </ProjectCardWrap>

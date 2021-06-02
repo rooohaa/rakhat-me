@@ -6,9 +6,9 @@ const ProjectsSection = styled.section`
    div.projects-wrap {
       margin: 50px 0 30px 0;
       display: flex;
-      align-items: flex-start;
-      justify-content: flex-start;
-      gap: 30px 28px;
+      align-items: center;
+      justify-content: space-around;
+      row-gap: 30px;
       flex-wrap: wrap;
 
       @media screen and (max-width: 1024px) {

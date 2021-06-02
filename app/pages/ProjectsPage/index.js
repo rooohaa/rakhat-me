@@ -29,18 +29,15 @@ const ProjectsPageComponent = () => {
                projectsLength={filteredProjects.length}
             />
             <div className="projects-wrap">
-               {filteredProjects.map(
-                  ({ id, title, description, imgPath, tags }) => (
-                     <ProjectCard
-                        key={id}
-                        id={id}
-                        title={title}
-                        descr={description}
-                        imgPath={imgPath}
-                        tags={tags}
-                     />
-                  )
-               )}
+               {filteredProjects.map(({ id, title, imgPath, tags }) => (
+                  <ProjectCard
+                     key={id}
+                     id={id}
+                     title={title}
+                     imgPath={imgPath}
+                     tags={tags}
+                  />
+               ))}
             </div>
          </Container>
       </ProjectsSection>

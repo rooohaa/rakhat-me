@@ -1,24 +1,25 @@
 import styled from 'styled-components';
 
 const ProjectCardWrap = styled.div`
-   width: 373px;
-   border-radius: 15px;
-   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-   transition: transform 0.3s ease;
+   width: 330px;
+   border-radius: 4px;
+   box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
+   padding: 8px;
+
+   transition: all 0.4s ease-out;
 
    &:hover {
-      transform: translateY(-4px);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    }
 
    div.project-img {
       width: 100%;
-      height: 170px;
+      height: 180px;
 
       img {
          user-select: none;
          pointer-events: none;
-         border-radius: 10px;
+         border-radius: 4px;
          width: 100%;
          height: 100%;
          object-fit: cover;
@@ -26,54 +27,42 @@ const ProjectCardWrap = styled.div`
    }
 
    div.project-info {
-      padding: 17px 15px;
+      padding: 10px 6px 3px 6px;
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
 
       h4 {
-         font-size: 22px;
-         line-height: 26px;
+         font-size: 18px;
+         line-height: 22px;
+         font-weight: 700;
          color: #333;
-         margin-bottom: 9px;
+         margin-bottom: 5px;
       }
 
-      p,
       span {
          font-size: 13px;
          line-height: 17px;
-      }
-
-      p {
-         margin-bottom: 10px;
-         line-height: 20px;
-         color: #222;
-      }
-
-      span {
          font-weight: 500;
          display: block;
-         color: #aaa;
-         margin-bottom: 20px;
+         color: #777;
+         margin-bottom: 5px;
       }
 
       a.more-link {
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         width: 160px;
-         height: 38px;
-         border-radius: 5px;
-         border: 1px solid #54ca95;
-
-         color: #54ca95;
-         font-weight: 700;
+         color: #09c;
          font-size: 14px;
-         transition: all 0.3s ease-out;
+         line-height: 16px;
+
+         align-self: flex-end;
 
          &:hover {
-            color: #fff;
-            background-color: #54ca95;
+            text-decoration: underline;
+         }
+
+         img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
          }
       }
    }
