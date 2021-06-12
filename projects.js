@@ -53,6 +53,19 @@ export const projects = [
    },
    {
       id: '5',
+      title: 'Trello Mini Clone',
+      tags: 'frontend, vanilla js',
+      description:
+         'Frontend challenge to learn drag and drop functionality. Great trello mini clone for managing task with drag-drop api.',
+      imgPath: '/images/trello.jpeg',
+      filterKeys: 'all,frontend',
+      tech: ['HTML5', 'CSS3', 'JavaScript'],
+      githubLink: 'https://github.com/rooohaa/trello-mini-clone',
+      date: 'June 2021',
+      demoLink: 'https://trello-min-clone.netlify.app/',
+   },
+   {
+      id: '6',
       title: 'Corporate website',
       tags: 'frontend, design',
       description:
@@ -65,7 +78,7 @@ export const projects = [
       demoLink: 'https://nghrdc.kz/',
    },
    {
-      id: '6',
+      id: '7',
       title: 'Football players review',
       tags: 'fullstack, data visualization',
       description:
