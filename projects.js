@@ -40,16 +40,23 @@ export const projects = [
    },
    {
       id: '4',
-      title: 'Sneaker Store Layout',
-      tags: 'frontend, layout, design',
+      title: 'Restaurant Finder',
+      tags: 'fullstack, pern',
       description:
-         'Responsive, well designed layout for Sneaker Store website. It has 5 pages and interactive elements like slider, popup, etc.',
-      imgPath: '/images/sneaker.webp',
-      filterKeys: 'layout,all,frontend',
-      tech: ['HTML5', 'CSS3', 'JavaScript', 'SASS'],
-      githubLink: 'https://github.com/rooohaa/sneaker-store-dev',
-      date: 'December 2020',
-      demoLink: 'https://sneaker-store.netlify.app/',
+         'Pet project for learning fullstack development with PERN stack. I have learned working with database on backend, creating REST API. Frontend built with SSR Next.js + React',
+      imgPath: '/images/pern.jpeg',
+      filterKeys: 'all,fullstack',
+      tech: [
+         'React',
+         'TypeScript',
+         'Express.js',
+         'Node.js',
+         'PostgreSQL',
+         'Redux',
+         'Next.js',
+      ],
+      githubLink: 'https://github.com/rooohaa/restaurant-finder',
+      date: 'June 2021',
    },
    {
       id: '5',
@@ -66,6 +73,19 @@ export const projects = [
    },
    {
       id: '6',
+      title: 'Sneaker Store Layout',
+      tags: 'frontend, layout, design',
+      description:
+         'Responsive, well designed layout for Sneaker Store website. It has 5 pages and interactive elements like slider, popup, etc.',
+      imgPath: '/images/sneaker.webp',
+      filterKeys: 'layout,all,frontend',
+      tech: ['HTML5', 'CSS3', 'JavaScript', 'SASS'],
+      githubLink: 'https://github.com/rooohaa/sneaker-store-dev',
+      date: 'December 2020',
+      demoLink: 'https://sneaker-store.netlify.app/',
+   },
+   {
+      id: '7',
       title: 'Corporate website',
       tags: 'frontend, design',
       description:
@@ -78,7 +98,7 @@ export const projects = [
       demoLink: 'https://nghrdc.kz/',
    },
    {
-      id: '7',
+      id: '8',
       title: 'Football players review',
       tags: 'fullstack, data visualization',
       description:
