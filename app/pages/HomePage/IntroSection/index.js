@@ -12,7 +12,7 @@ const IntroSection = () => {
          <Container>
             <div className="photo">
                <Image
-                  src="/images/me.jpeg"
+                  src="/images/me.jpg"
                   alt="Rakhat's photo"
                   width={385}
                   height={385}
