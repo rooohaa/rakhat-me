@@ -17,6 +17,7 @@ function MyApp({ Component, pageProps }) {
                name="keywords"
                content="Web developer, Frontend, Frontend Developer, JavaScript"
             />
+            <meta name="theme-color" content="#54ca95" />
             <title>Rakhat Alpysbai</title>
          </Head>
          <Component {...pageProps} />
