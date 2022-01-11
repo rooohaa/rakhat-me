@@ -11,13 +11,12 @@ function MyApp({ Component, pageProps }) {
             />
             <meta
                name="description"
-               content="Hi there :), I'm Rakhat, Web developer from Nur-Sultan, KZ"
+               content="Hi there :), I'm Rakhat, Fullstack web developer from Nur-Sultan, Kazakhstan"
             />
             <meta
                name="keywords"
                content="Web developer, Frontend, Frontend Developer, JavaScript"
             />
-            <meta name="theme-color" content="#54ca95" />
             <title>Rakhat Alpysbai</title>
          </Head>
          <Component {...pageProps} />

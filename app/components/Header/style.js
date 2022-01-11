@@ -26,7 +26,7 @@ const HeaderSection = styled.header`
          font-size: 18px;
          line-height: 28px;
          font-weight: 700;
-         color: #000;
+         color: #333;
       }
    }
 

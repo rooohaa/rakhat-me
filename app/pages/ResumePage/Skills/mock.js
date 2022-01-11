@@ -2,7 +2,7 @@ export const skills = [
    {
       id: 1,
       title: 'HTML / CSS',
-      percent: 100,
+      percent: 90,
    },
    {
       id: 2,
@@ -17,12 +17,12 @@ export const skills = [
    {
       id: 4,
       title: 'Responsive Design',
-      percent: 90,
+      percent: 80,
    },
    {
       id: 5,
       title: 'Vue',
-      percent: 70,
+      percent: 80,
    },
    {
       id: 6,
@@ -32,12 +32,12 @@ export const skills = [
    {
       id: 7,
       title: 'PostgreSQL',
-      percent: 80,
+      percent: 70,
    },
    {
       id: 8,
       title: 'Git',
-      percent: 90,
+      percent: 80,
    },
    {
       id: 9,
@@ -48,5 +48,10 @@ export const skills = [
       id: 10,
       title: 'Node.js',
       percent: 80,
+   },
+   {
+      id: 11,
+      title: 'React Native',
+      percent: 60,
    },
 ];

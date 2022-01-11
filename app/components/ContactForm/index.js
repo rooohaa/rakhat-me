@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-
 import { SectionTitle } from 'app/sc/SectionTitle';
-
 import { FormWrapper } from './style';
 
 const ContactForm = () => {

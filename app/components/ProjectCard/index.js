@@ -18,7 +18,7 @@ const ProjectCard = (props) => {
             <span>{tags}</span>
 
             <Link href={`/projects/${id}`}>
-               <a className="more-link">More</a>
+               <a className="more-link">Learn more</a>
             </Link>
          </div>
       </ProjectCardWrap>
